@@ -1,0 +1,14 @@
+img {
+    aspect-ratio: 1040 / 693;
+    max-width: 180px;
+    max-height: 180px;
+    height: auto;
+    width: auto;
+}
+
+.groups{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: space-between;
+}
