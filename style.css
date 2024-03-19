@@ -12,3 +12,17 @@ img {
     margin: 30px;
     justify-content: space-between;
 }
+
+.semifinals{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: space-between;
+}
+
+.final{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: space-between;
+}
