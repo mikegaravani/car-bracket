@@ -1,28 +1,103 @@
+body {
+    /* Gradient background with a subtle pattern */
+    background: linear-gradient(to right, #6ee7b7, #3b82f6);
+    background-size: cover;
+}
+
+/* HOMEPAGE STYLING */
+/* General body styling */
+.homepage {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Styling for the main title */
+#mainTitle {
+    font-size: 48px;
+    color: white;
+    margin: 0 auto 20px; /* Adjusted for spacing */
+    padding: 10px 20px; /* Add padding around the text */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    display: inline-block; /* Makes the background fit the content */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow for depth */
+}
+
+/* Styling for the caption */
+#mainCaption {
+    font-size: 24px;
+    color: white;
+    margin: 10px 0 150px;
+}
+
+/* Styling for the clickable button link */
+.coolButton {
+    background-color: #ffffff; /* Changed to white for contrast */
+    color: #004c7f; /* Text color now matches the gradient */
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /* Important for allowing padding and click area */
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid transparent; /* Add border to maintain the style */
+    box-shadow: 0 4px #999;
+}
+
+/* Interactive effects on hover */
+.coolButton:hover {
+    background-color: transparent; /* Transparent background on hover */
+    color: white; /* White text color on hover for contrast */
+    border-color: #ffffff; /* White border on hover */
+    box-shadow: 0 5px #666;
+    transform: translateY(-2px);
+}
+
+/* Copyright Bar Styling */
+#copyrightBar {
+    position: fixed; /* Keeps the bar at the bottom */
+    bottom: 0; /* Aligns to the bottom of the viewport */
+    left: 0; /* Ensures it spans from the left edge */
+    width: 100%; /* Ensures it spans the full width of the viewport */
+    background-color: rgba(255, 255, 255, 0.8); /* Light, semi-transparent background for subtlety */
+    color: #333; /* Dark grey color for text, ensuring it's subtle */
+    text-align: center; /* Centers the copyright text */
+    padding: 5px 0; /* Smaller padding for subtlety */
+    font-size: 12px; /* Smaller font size for a more subtle appearance */
+    z-index: 1000; /* Ensures it stays on top of other content if needed */
+}
+
+
+
+
+
+
+
+
+/* GAME STYLING */
+.gamebody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 img {
     aspect-ratio: 1040 / 693;
     max-width: 180px;
     max-height: 180px;
     height: auto;
     width: auto;
-}
-
-.groups{
-    display: flex;
-    flex-direction: row;
-    margin: 30px;
-    justify-content: space-between;
-}
-
-.semifinals{
-    display: flex;
-    flex-direction: row;
-    margin: 30px;
-    justify-content: space-between;
-}
-
-.final{
-    display: flex;
-    flex-direction: row;
-    margin: 30px;
-    justify-content: space-between;
 }
